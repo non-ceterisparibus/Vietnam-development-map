@@ -1,0 +1,25 @@
+name: mapplot
+channels:
+  - conda-forge
+
+dependencies:
+  - conda-build
+  - ipykernel
+  - jupyterlab
+  - matplotlib
+  - scipy
+  - pandas
+  - numpy
+  - pip
+  - seaborn
+  - plotly 
+
+  - pytest
+  - pytest-cov
+  - python=3.8
+
+
+
+
+
+
