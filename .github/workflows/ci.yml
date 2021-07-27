@@ -1,14 +1,14 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Continuous Integration
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,13 +24,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+           miniconda-version: "latest"
+           activate-environment: mapplot
+           environment-file: environment.yml
+           python-version: 3.8
+           auto-activate-base: false
+      - name: execute notebooks
+        shell: bash -l {0}
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          export PATH="$PATH:/usr/share/miniconda/bin"
+          conda activate mapplot
+          jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=120 *.ipynb
