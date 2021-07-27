@@ -1,9 +1,6 @@
 # Plotting Mekong Development Map by Choropleth Maps
 
 
-[Video Tutorial](https://youtu.be/aJmaw3QKMvk)
-
-
 A choropleth map uses colour coding to indicate quantitative values across geographical areas on a map.
 
 <img src="figures/mekong.png" width=300>
