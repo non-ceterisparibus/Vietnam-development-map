@@ -27,8 +27,7 @@ Open Development Mekong (OD Mekong) and related country websites are independent
 
 ## References
 
-
-- https://un-mapped.carto.com/tables/states_india/public/map
+- https://data.vietnam.opendevelopmentmekong.net
 
 - https://plotly.com/python/choropleth-maps/
 
