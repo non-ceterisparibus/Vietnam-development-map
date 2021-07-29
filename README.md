@@ -1,13 +1,12 @@
 # Plotting Mekong Development Map by Choropleth Maps
 
+> In this project, I am using plotly to analysis and visualize data of Mekong region to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
-A choropleth map uses colour coding to indicate quantitative values across geographical areas on a map.
 
 <img src="figures/mekong.png" width=300>
 
->A choropleth map is a type of thematic map in which areas are shaded or patterned in proportion to a statistical variable that represents an aggregate summary of a geographic characteristic within each area, such as population density or per-capita income.
 
-## Terminologies
+## Visualization packages
 
 
 ### [Plotly](https://plotly.com/)
@@ -16,23 +15,18 @@ Plotly is a technical computing company that develops online data analytics and 
 ### [plotly.py](https://plotly.com/python/)
 An interactive, open-source, and browser-based graphing library for Python.
 
-```bash
-$ pip install plotly
-```
-
 >Plotly Express is a new high-level Python visualization library: it's a wrapper for Plotly.py that exposes a simple syntax for complex charts.
 
 ### [GeoJSON](https://geojson.org/)
 An open standard format designed for representing simple geographical features, along with their non-spatial attributes.
 
-### [Mapbox](https://mapbox.com/)
-An open source mapping platform for custom designed maps.
+## Data
+### [OpenDevelopmentMekong](https://opendevelopmentmekong.net//)
+Open Development Mekong (OD Mekong) and related country websites are independent collectors and providers of objective data on development trends in the Mekong Delta.
 
 
 ## References
 
-
-- https://en.wikipedia.org/wiki/List_of_states_and_union_territories_of_India_by_population
 
 - https://un-mapped.carto.com/tables/states_india/public/map
 
@@ -40,8 +34,6 @@ An open source mapping platform for custom designed maps.
 
 - https://plotly.com/python/colorscales/
 
-- https://www.mapbox.com/
-
-- https://plotly.com/python/mapbox-county-choropleth/
+- https://plotly.com/python/bubble-maps/
 
 - https://plotly.com/python/mapbox-layers/
