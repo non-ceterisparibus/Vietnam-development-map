@@ -1,4 +1,4 @@
-# Plotting Mekong Development Map by Choropleth Maps
+# Plotting Mekong Development Map
 
 > In this project, I am using plotly to analysis and visualize data of Mekong region to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
