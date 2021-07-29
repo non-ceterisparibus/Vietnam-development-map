@@ -6,17 +6,18 @@ dependencies:
   - conda-build
   - ipykernel
   - jupyterlab
+  - ipywidgets
   - matplotlib
-  - scipy
   - pandas
   - numpy
-  - pip
   - seaborn
-  - plotly 
+  - plotly
+  - cufflinks 
 
   - pytest
   - pytest-cov
   - python=3.8
+  - pip
 
 
 
