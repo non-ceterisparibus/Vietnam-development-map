@@ -24,6 +24,7 @@ An open standard format designed for representing simple geographical features, 
 ### [OpenDevelopmentMekong](https://opendevelopmentmekong.net//)
 Open Development Mekong (OD Mekong) and related country websites are independent collectors and providers of objective data on development trends in the Mekong Delta.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Thu-Duong/plotting-geo-map/main?filepath=https%3A%2F%2Fgithub.com%2FThu-Duong%2Fplotting-geo-map%2Fblob%2Fmain%2FVietnam_Map.ipynb)
 
 ## References
 
