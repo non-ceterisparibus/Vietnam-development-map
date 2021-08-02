@@ -1,6 +1,6 @@
 # Plotting Mekong Development Map
 
-> In this project, I am using plotly to analysis and visualize data of Mekong region to improve and inform constructive dialogue and decision making for sustainable and equitable development.
+> In this project, I am using plotly to analysis and visualize data of Mekong region with interactive map to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
 
 <img src="figures/mekong.png" width=300>
