@@ -13,7 +13,7 @@ dependencies:
   - numpy
   - seaborn
   - plotly
-  - cufflinks-py 
+  - shapely
 
   - pytest
   - pytest-cov
