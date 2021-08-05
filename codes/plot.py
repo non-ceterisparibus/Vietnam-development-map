@@ -9,7 +9,7 @@ import plotly.express as px
 import plotly.io as pio
 pio.renderers.default = 'browser'
 
-def plot_animation_frame_vietnamstate(df,color, hover_data, title):
+def plot_animation_frame_vietnamstate(df,geo_json, color, hover_data, title):
     """
     Function to plot choropleth interactive plot by year. 
         Args:
@@ -27,7 +27,7 @@ def plot_animation_frame_vietnamstate(df,color, hover_data, title):
         df,
         locations ="Code",
         animation_frame = "year",
-        geojson = vietnam_geo,
+        geojson = geo_json,
         color = color,
         range_color=(min(df[color]), max(df[color])),
         hover_name = "Name",
