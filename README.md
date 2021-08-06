@@ -5,6 +5,11 @@
 
 <img src="figures/mekong.png" width=300>
 
+## Install environment
+
+```bash
+conda env create -f environment.yml
+```
 
 ## Visualization packages
 
