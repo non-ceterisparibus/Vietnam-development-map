@@ -1,9 +1,9 @@
-# Plotting Vietnam - Mekong Development Map
+# Plotting Vietnam Development Map
 
-> In this project, I am using plotly to analyse and visualize data of Vietnam's regions with interactive map to improve and inform constructive dialogue and decision making for sustainable and equitable development.
+> This is my personal project that I use plotly to analyse and visualize data of Vietnam's regions with interactive map to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
 
-<img src="figures/mekong.png" width=300>
+<img src="figures/vietnam_physio-2001.png" width=300>
 
 ## Install environment
 
