@@ -2,7 +2,7 @@
 
 > This is my personal project that I use plotly to analyse and visualize data of Vietnam's regions with interactive map to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
-<img src="figures/vietnam_physio-2001.png" width=300>
+<img src="figures/vietnam_physio-2001.jpg" width=300>
 
 ## Visualization packages
 
