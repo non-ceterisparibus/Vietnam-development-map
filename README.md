@@ -2,14 +2,7 @@
 
 > This is my personal project that I use plotly to analyse and visualize data of Vietnam's regions with interactive map to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
-
 <img src="figures/vietnam_physio-2001.png" width=300>
-
-## Install environment
-
-```bash
-conda env create -f environment.yml
-```
 
 ## Visualization packages
 
@@ -24,6 +17,12 @@ Plotly Express is a new high-level Python visualization library: it's a wrapper 
 
 ### [GeoJSON](https://geojson.org/)
 An open standard format designed for representing simple geographical features, along with their non-spatial attributes.
+
+## Install environment
+
+```bash
+conda env create -f environment.yml
+```
 
 ## Data
 ### [OpenDevelopmentMekong](https://opendevelopmentmekong.net//)
