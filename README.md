@@ -16,12 +16,6 @@
 
 <img src="figures/vietnam_physio-2001.png" width=300>
 
-## Install environment
-
-```bash
-conda env create -f environment.yml
-```
-
 ## Visualization packages
 
 ### [Plotly](https://plotly.com/python/)
@@ -35,6 +29,12 @@ Plotly Express is a new high-level Python visualization library: it's a wrapper 
 
 ### [GeoJSON](https://geojson.org/)
 An open standard format designed for representing simple geographical features, along with their non-spatial attributes.
+
+## Install environment
+
+```bash
+conda env create -f environment.yml
+```
 
 ## Data
 ### [OpenDevelopmentMekong](https://opendevelopmentmekong.net//)
