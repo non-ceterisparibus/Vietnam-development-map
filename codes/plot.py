@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+import plotly.graph_objects as go
 import plotly.express as px
 
 # Plot in browser (recommended)
@@ -35,5 +36,23 @@ def plot_animation_frame_vietnamstate(df, geo_json, color_data, title):
     )
     fig.update_geos(fitbounds = "locations", visible=False)
     fig.show()
+
+def add_subplot(geo,df,cat,i,rows, cols):
+    
+    fig.add_trace(go.Choroplethmapbox(
+        geojson = geo,
+        featureidkey = "properties.Code",
+        locations = df["Code"],
+        z = df[cat],
+        zmin =  20,
+        zmax = 4000,
+        hovertext = 'State: ' + df["Name_EN"] + '<br>' + cat + ': '+df[cat].astype('str'),
+        colorscale='Bluered',
+        # showscale=True,
+        # name = '{}'.format('Wages_agri')
+                ),
+    row = i//rows+1, 
+    col = i%cols+1
+    )
 
 # if __name__ == '__main__':
