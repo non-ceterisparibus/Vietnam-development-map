@@ -8,11 +8,11 @@
         1.2 Road and Railway Network
     * 2. Poverty in Vietnam
         2.1 The percentage of malnourished children under 5 in 2018 by locality
-        2.2 Proportion of poor households by region in Vietnam from 1998 to 2016
+        2.2 Proportion of poor households by regionfrom 1998 to 2016
     * 3. Vietnam Economy
         3.1 Employment
         3.2 The Aquaculture Production of Vietnam from 2013 to 2018 by Provinces
-        3.3 Various sources of income by provinces  in 2018 in Vietnam
+        3.3 Various sources of income by provinces  in 2018
 
 <img src="figures/vietnam_physio-2001.jpg" width=300>
 
