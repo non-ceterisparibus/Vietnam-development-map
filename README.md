@@ -14,7 +14,7 @@
         3.2 The Aquaculture Production of Vietnam from 2013 to 2018 by Provinces
         3.3 Various sources of income by provinces  in 2018 in Vietnam
 
-<img src="figures/vietnam_physio-2001.png" width=300>
+<img src="figures/vietnam_physio-2001.jpg" width=300>
 
 ## Visualization packages
 
