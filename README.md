@@ -2,6 +2,12 @@
 
 > This is my personal project that I use plotly to analyse and visualize data of Vietnam's regions with interactive map to improve and inform constructive dialogue and decision making for sustainable and equitable development.
 
+<a href="https://nbviewer.org/github/non-ceterisparibus/Vietnam-development-map/blob/main/Vietnam_Map.ipynb"
+   target="_parent">
+   <img align="center"
+  src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
+      width="109" height="20">
+
 ## Content
     * 1 General Geography
         1.1 Soil Map
