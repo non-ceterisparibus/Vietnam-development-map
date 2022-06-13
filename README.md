@@ -8,7 +8,7 @@
   src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.png"
       width="109" height="20"> -->
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/non-ceterisparibus/Vietnam-development-map/main?labpath=https%3A%2F%2Fgithub.com%2Fnon-ceterisparibus%2FVietnam-development-map%2Fblob%2Fmain%2FVietnam_Map.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/non-ceterisparibus/Vietnam-development-map/main)
 
 ## Content
     * 1 General Geography
