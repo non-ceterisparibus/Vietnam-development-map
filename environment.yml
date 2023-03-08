@@ -14,6 +14,10 @@ dependencies:
   - seaborn
   - plotly
   - shapely
+  - dash
+  - dash-core-components
+  - dash-html-components
+  - dash-renderer
 
   - pytest
   - pytest-cov
