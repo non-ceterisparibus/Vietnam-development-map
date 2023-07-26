@@ -16,15 +16,15 @@ categories = sorted(income_df.columns[2:])
 #Vietnam map
 vietnam_geo = json.load(open("geodata/vietnam_state.geojson","r"))
 
-cat_options = []
+options = []
 for cat in categories:
-    cat_options.append({'label':str(cat[7:]),'value':cat})
+    options.append({'label':str(cat[7:]),'value':cat})
 
 app.layout = html.Div([
     dcc.Graph(id='graph'),
     dcc.Dropdown(id='income-picker',
-                 options=cat_options,
-                 value=cat_options[0])
+                 options=options,
+                 value=options[0])
 ])
 
 @app.callback(Output('graph', 'figure'),
@@ -43,7 +43,7 @@ def update_graph(selected_income):
         )
     layout = go.Layout(
         title='Income by provinces',
-        height=900,  # set the height of the chart to 500 pixels
+        height=1000,  # set the height of the chart to 500 pixels
         width=600,   # set the width of the chart to 800 pixels
         mapbox=dict(
             style='white-bg',  # replace with your own mapbox style
