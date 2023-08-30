@@ -20,6 +20,7 @@ options = []
 for cat in categories:
     options.append({'label':str(cat[7:]),'value':cat})
 
+
 app.layout = html.Div([
     dcc.Graph(id='graph'),
     dcc.Dropdown(id='income-picker',
@@ -29,6 +30,7 @@ app.layout = html.Div([
 
 @app.callback(Output('graph', 'figure'),
               [Input('income-picker', 'value')])
+
 def update_graph(selected_income):
     trace = go.Choroplethmapbox(
         geojson = vietnam_geo,
@@ -48,8 +50,8 @@ def update_graph(selected_income):
         mapbox=dict(
             style='white-bg',  # replace with your own mapbox style
             center=dict(
-                lat=17,  # replace with your own latitude
-                lon=106  # replace with your own longitude
+                        lat=17,  # replace with your own latitude
+                        lon=106  # replace with your own longitude
             ),
             zoom=4.5,  # replace with your own zoom level
         ),
