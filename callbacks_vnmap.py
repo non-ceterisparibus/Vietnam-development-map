@@ -25,7 +25,7 @@ app.layout = html.Div([
     dcc.Graph(id='graph'),
     dcc.Dropdown(id='income-picker',
                  options=options,
-                 value=options[0])
+                 value=options[1]['value'])
 ])
 
 @app.callback(Output('graph', 'figure'),
